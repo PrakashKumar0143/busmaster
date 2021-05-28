@@ -80,13 +80,13 @@ typedef struct
 STANDARD_COMB sg_asDiagStandard[NUM_STAND_APPLIED] =
 {
     {STANDARD_UDS,          "UDS(ISO 14229)",  TRUE},
-    {STANDARD_KWP2000,      "KPW2000(ISO 14230)",        TRUE},
+    {STANDARD_KWP2000,      "KWP2000(ISO 14230)",        TRUE},
 };
 
 STANDARD_COMB sg_asSupportedDiagStandard[NUM_STAND_APPLIED] =
 {
     {STANDARD_UDS,          "UDS(ISO 14229)",  TRUE},
-    {STANDARD_KWP2000,      "KPW2000(ISO 14230)",        TRUE},
+    {STANDARD_KWP2000,      "KWP2000(ISO 14230)",        TRUE},
 };
 
 void vPopulateDiagnosticStandardComboBox(STANDARD_COMB sg_asInterface[], int nSize,
